@@ -8,6 +8,14 @@
 
 [Архитектура](https://www.figma.com/file/r7rWgjDOiuDXBuJbGpPzqb/StuContest(Arch)?node-id=0%3A1&t=M8ytzJuEbvGvgJ1m-1) (модули).
 
+![Фронт](/images/front.jpg)
+
+![Модули для работы с базой данных](/images/db.jpg)
+
+![Модули бизнес логики](/images/blogic.jpg)
+
+![Архитектура базы данных](/images/dbarch.jpg)
+
 Стек технологий:
 
 - Spring Boot
