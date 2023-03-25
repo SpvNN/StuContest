@@ -23,7 +23,7 @@
 
 ### Стек технологий
 
-- Spring Boot
+- Micronaut Framework
 
 - PostgreSQL
 
