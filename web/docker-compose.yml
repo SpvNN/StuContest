@@ -1,8 +1,5 @@
 version: '3.7'
 services:
-    devApp:
+    dev_app:
         build:
             context: ./
-        user: '1000:1000'
-        volumes:
-            - ./:/app

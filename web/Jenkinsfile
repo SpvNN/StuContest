@@ -32,22 +32,22 @@ pipeline{
         }
         stage("Run Dev"){
             steps {
-                sh 'docker-compose run devApp ./gradlew run'
+                sh 'docker-compose run dev_app make run'
             }
         }
         stage("Test"){
             steps {
-                echo "temp"
+                sh 'docker-compose run dev_app make test'
+            }
+        }
+        stage("Down dev"){
+            steps {
+                sh 'docker-compose down --remove-orphans'
             }
         }
         stage("Push to Prod"){
             steps {
-                echo "temp"
-            }
-        }
-        stage("Down docker"){
-            steps {
-                sh 'docker-compose down --remove-orphans'
+                echo "This project works in local networks"
             }
         }
     }
