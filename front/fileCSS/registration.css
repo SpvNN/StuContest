@@ -1,0 +1,52 @@
+body{
+    background: url(https://uploads-ssl.webflow.com/62e3ee10882dc50bcae8d07a/631a5d4631d4c55a475f3e34_noise-50.png);
+   background-color: rgb(26, 26, 26);
+   font-family: 'Fira Code', monospace;
+}
+
+.container{
+    color: aliceblue;
+    max-width: 500px;
+    width: auto;
+    height: auto;
+    position: absolute;
+    top: 30%;
+    left: 45%;
+    margin: -125px 0 0 -125px;
+    border: 1px solid rgb(255, 107, 61);
+    border-radius:  10px;
+}
+
+input{
+    width: 450px;
+    height: 55px;
+    border-radius: 10px;
+    border:1px solid rgb(65, 65, 65);
+    background-color: #2b2b2b;
+    color: aliceblue;
+    font-size: 25px;
+    padding: 5px 10px;
+    outline:none;
+    
+    
+}
+
+.container div{
+    display: flex;
+    margin: 40px;
+    justify-content: center;
+}
+
+button{
+    font-size: 23px;
+    width: 250px;
+    height: 70px;
+    border-radius: 20px;
+    background-color: #df5211;
+    border:1px solid #2b2b2b;
+    box-shadow: none;
+}
+
+button:hover{
+    background-color: #dd4904;
+}
