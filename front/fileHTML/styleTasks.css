@@ -1,0 +1,80 @@
+body{
+  background: url(https://uploads-ssl.webflow.com/62e3ee10882dc50bcae8d07a/631a5d4631d4c55a475f3e34_noise-50.png);
+ /* background-color: rgb(37, 37, 37); */
+ background-color: rgb(26, 26, 26);
+ font-family: 'Fira Code', monospace;
+}
+
+/* -----------------------------------------Шапака сайта------------------------------------------------------------- */
+header{
+  margin-bottom: 100px;
+}
+
+.header a{
+  text-decoration: none;
+  color: rgb(185, 185, 185);
+  font-size: 30px;
+}
+
+.logo{
+  font-size: 30px;
+  color: white;
+  float: left;
+}
+.nav{
+  display: flex;
+  float: left;
+}
+.nav div{
+  margin: 20px;
+}
+
+.login{
+  display: flex;
+  justify-content: flex-end;
+}
+.login div{
+  margin: 20px;
+}
+
+/* -----------------------------Конец шапки сайта---------------------------------------------------------------------- */
+/*--------------------------------------------------------------------------------------------------------------------- */
+.container{
+  display: grid;
+  grid-template-columns: 85% 15%;
+  grid-auto-rows: minmax(10px,auto);
+  grid-gap: 1em;
+  grid-template-rows: 10px, 900px; 
+  grid-template-areas: 
+  "pageNumber ."
+  "tasksTable taskCompllexity";
+}
+
+.container div{
+  color: white;
+  padding: 20px;
+}
+
+.pageNumber{
+  grid-area: pageNumber;
+  background-color: #2b2b2b;
+}
+.tasksTable{
+  grid-area: tasksTable;
+  height: 500px;
+  background-color: #2b2b2b;
+}
+.taskCompllexity{
+  grid-area: taskCompllexity;
+  background-color: #2c2b2b;
+}
+
+
+
+.tasks{
+  border: 1px solid wheat;
+}
+
+/* <div class="pageNumber">Номера страниц</div>
+  <div class="tasksTable">Список задач в виде таблицы</div>
+  <div class="taskCompllexity" */
