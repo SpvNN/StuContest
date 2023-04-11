@@ -1,0 +1,115 @@
+body{
+    background: url(https://uploads-ssl.webflow.com/62e3ee10882dc50bcae8d07a/631a5d4631d4c55a475f3e34_noise-50.png);
+   background-color: rgb(26, 26, 26);
+   font-family: 'Fira Code', monospace;
+}
+  
+
+
+/* -----------------------------------------Шапака сайта------------------------------------------------------------- */
+header{
+    margin-bottom: 100px;
+}
+
+.header a{
+    text-decoration: none;
+    color: rgb(185, 185, 185);
+    font-size: 30px;
+}
+
+.logo{
+    font-size: 30px;
+    color: white;
+    float: left;
+}
+.nav{
+    display: flex;
+    float: left;
+}
+.nav div{
+    margin: 20px;
+}
+
+.login{
+    display: flex;
+    justify-content: flex-end;
+}
+.login div{
+    margin: 20px;
+}
+
+/* -----------------------------Конец шапки сайта---------------------------------------------------------------------- */
+
+/* ----------------------Контейнер---------------------- */
+
+
+.description{
+    text-align: center;
+}
+.description h1{
+    color: #df5211;
+    font-size: 100px;
+}
+
+.description p{
+    color: rgb(182, 182, 182);
+    font-size: 40px;
+    
+}
+.container{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-auto-rows: minmax(100px, auto);
+    grid-gap: 1em;
+}
+
+ div{
+    /* border: 3px solid red; */
+    
+}
+
+  .photo1{
+    padding: 30px;
+    width: auto;
+    max-width: 500px;
+    border-radius: 30px;
+ } 
+
+@media(max-width: 1200px){
+   .container,.header{
+    max-width: 970px;
+   }
+}
+@media(max-width: 992px){
+    .container,.header{
+     max-width: 750px;
+    }
+ }
+ @media(max-width: 767px){
+    .container,.header{
+     max-width: none;
+    }
+ }
+
+
+ /* --------------------Конец контейнера */
+
+/* 
+.login, .registration{
+    float: right;
+    text-align: right;
+    font-size: 20px;
+    padding: 5px;
+    border: 1px solid rgb(107, 107, 107);
+    border-radius: 5px;
+    margin:10px 20px 0 0;
+}
+.login:hover{
+    border: 1px solid rgb(165, 165, 165);
+}
+
+
+.registration:hover{
+    border: 1px solid rgb(165, 165, 165);
+}
+ */
