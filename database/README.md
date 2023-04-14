@@ -2,7 +2,7 @@
 
 
 
-![](images/dbarch.png)
+![](../images/dbarch.png)
 
 <h2>Data dictionary index</h2>
  <ul id="index">
