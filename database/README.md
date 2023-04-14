@@ -1,3 +1,9 @@
+
+
+
+
+![](/home/pavel/Documents/University/SprPo/StuContest/images/dbarch.png)
+
 <h2>Data dictionary index</h2>
  <ul id="index">
  <li><strong>Database: </strong>StuContest</strong>
@@ -92,7 +98,7 @@
 </table>
 
 <div>
- <a href="#index" class="nav-link">&uarr; Index</a>
+ <a href="#index" class="nav-link">↑ Index</a>
 </div>
 <table id="connects.group_contest" class="table">
  <caption class="tab-name">
@@ -169,7 +175,7 @@
 </table>
 
 <div>
- <a href="#index" class="nav-link">&uarr; Index</a>
+ <a href="#index" class="nav-link">↑ Index</a>
 </div>
 <table id="connects.problem_restriction" class="table">
  <caption class="tab-name">
@@ -246,7 +252,7 @@
 </table>
 
 <div>
- <a href="#index" class="nav-link">&uarr; Index</a>
+ <a href="#index" class="nav-link">↑ Index</a>
 </div>
 <table id="contests.contests" class="table">
  <caption class="tab-name">
@@ -315,7 +321,7 @@
 </table>
 
 <div>
- <a href="#index" class="nav-link">&uarr; Index</a>
+ <a href="#index" class="nav-link">↑ Index</a>
 </div>
 <table id="problems.problems" class="table">
  <caption class="tab-name">
@@ -422,7 +428,7 @@
 </table>
 
 <div>
- <a href="#index" class="nav-link">&uarr; Index</a>
+ <a href="#index" class="nav-link">↑ Index</a>
 </div>
 <table id="problems.restrictions" class="table">
  <caption class="tab-name">
@@ -501,7 +507,7 @@
 </table>
 
 <div>
- <a href="#index" class="nav-link">&uarr; Index</a>
+ <a href="#index" class="nav-link">↑ Index</a>
 </div>
 <table id="problems.solutions" class="table">
  <caption class="tab-name">
@@ -616,7 +622,7 @@
 </table>
 
 <div>
- <a href="#index" class="nav-link">&uarr; Index</a>
+ <a href="#index" class="nav-link">↑ Index</a>
 </div>
 <table id="problems.tests" class="table">
  <caption class="tab-name">
@@ -715,7 +721,7 @@
 </table>
 
 <div>
- <a href="#index" class="nav-link">&uarr; Index</a>
+ <a href="#index" class="nav-link">↑ Index</a>
 </div>
 <table id="users.groups" class="table">
  <caption class="tab-name">
@@ -784,7 +790,7 @@
 </table>
 
 <div>
- <a href="#index" class="nav-link">&uarr; Index</a>
+ <a href="#index" class="nav-link">↑ Index</a>
 </div>
 <table id="users.roles" class="table">
  <caption class="tab-name">
@@ -853,7 +859,7 @@
 </table>
 
 <div>
- <a href="#index" class="nav-link">&uarr; Index</a>
+ <a href="#index" class="nav-link">↑ Index</a>
 </div>
 <table id="users.users" class="table">
  <caption class="tab-name">
@@ -942,7 +948,7 @@
 </table>
 
 <div>
- <a href="#index" class="nav-link">&uarr; Index</a>
+ <a href="#index" class="nav-link">↑ Index</a>
 </div>
 <footer>
 Generated at <em>2023-04-14T08:49:08 </em> by <strong>pgModeler 1.0.2</strong><br/>
