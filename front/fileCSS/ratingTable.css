@@ -35,8 +35,11 @@ header{
   .login div{
     margin: 20px;
   }
-  
-  /* -----------------------------Конец шапки сайта---------------------------------------------------------------------- */
+
+  nav div a:hover{
+    color: aliceblue;
+} 
+/* -----------------------------Конец шапки сайта---------------------------------------------------------------------- */
 
 .container{
     background: #2b2b2b;
@@ -52,6 +55,10 @@ header{
     padding: 5px;
 }
 
+.container div:hover{
+  border: 3px solid wheat;
+}
+
 .nameTable{
     display: flex;
     justify-content: center;
@@ -62,3 +69,6 @@ header{
     margin: 0 auto;
     color: #df5211;
 }
+
+
+

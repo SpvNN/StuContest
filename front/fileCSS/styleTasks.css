@@ -37,6 +37,10 @@ header{
   margin: 20px;
 }
 
+nav div a:hover{
+  color: aliceblue;
+}
+
 /* -----------------------------Конец шапки сайта---------------------------------------------------------------------- */
 /*--------------------------------------------------------------------------------------------------------------------- */
 .container{
@@ -53,6 +57,7 @@ header{
 .container div{
   color: white;
   padding: 20px;
+  height: auto;
 }
 
 .pageNumber{
@@ -69,11 +74,14 @@ header{
   background-color: #2c2b2b;
 }
 
-
-
 .tasks{
   border: 1px solid wheat;
 }
+
+.tasks:hover{
+  border: 3px solid wheat;
+}
+
 
 /* <div class="pageNumber">Номера страниц</div>
   <div class="tasksTable">Список задач в виде таблицы</div>
