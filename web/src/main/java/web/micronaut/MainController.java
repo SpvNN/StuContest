@@ -20,4 +20,31 @@ public class MainController {
     public String hello(String name) {
        return "Hello, " + name;
     }
+
+    //***
+    @GetMapping("/registration")
+    public String registration(Model model) {
+        model.addAttribute("userForm", new User());
+ 
+        return "login";
+    }
+ 
+    @PostMapping("/registration")
+    public String addUser(@ModelAttribute("userForm") @Valid User userForm, BindingResult bindingResult, Model model) {
+ 
+        if (bindingResult.hasErrors()) {
+            return "/login";
+        }
+        if (!userForm.getPassword().equals(userForm.getPasswordConfirm())){
+            model.addAttribute("passwordError", "Пароли не совпадают");
+            return "/login";
+        }
+        if (!userService.saveUser(userForm)){
+            model.addAttribute("usernameError", "Пользователь с таким именем уже существует");
+            return "forward:/login";
+        }
+ 
+        return "/login";
+    }
+    //***
 }
