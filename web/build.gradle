@@ -18,6 +18,9 @@ dependencies {
     runtimeOnly("ch.qos.logback:logback-classic")
     implementation("io.micronaut:micronaut-validation")
     implementation("io.micronaut.views:micronaut-views-thymeleaf")
+    testImplementation 'io.cucumber:cucumber-java:7.11.2'
+    testImplementation 'io.cucumber:cucumber-junit:7.11.2'
+    testImplementation 'org.junit.vintage:junit-vintage-engine:5.7.2'
 }
 
 
@@ -39,3 +42,19 @@ micronaut {
     }
 }
 
+configurations {
+    cucumberRuntime {
+        extendsFrom testImplementation
+    }
+}
+
+// task cucumber() {
+//     dependsOn assemble, testClasses
+//     doLast {
+//         javaexec {
+//             main = "io.cucumber.core.cli.Main"
+//             classpath = configurations.cucumberRuntime + sourceSets.main.output + sourceSets.test.output
+//             args = ['--plugin', 'pretty', '--glue', 'web', 'src/test/features']
+//         }
+//     }
+// }
