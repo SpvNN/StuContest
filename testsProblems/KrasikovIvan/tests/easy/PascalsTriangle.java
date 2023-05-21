@@ -6,7 +6,7 @@ import java.util.List;
 import java.util.Map;
 
 
-
+// Легкая задача
 public class PascalsTriangle {
     static public List<Integer> solution(int rowIndex){
         List<Integer> result = new ArrayList<>();

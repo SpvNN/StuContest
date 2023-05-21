@@ -38,7 +38,7 @@ public class ValStackSeq {
                 if(((int)(Math.random()*2)) == 1 && !stack.isEmpty())
                     popped.add(stack.pop());
             }
-            while(!stack.isEmpty()){
+            for(int e = len-popped.size(); !stack.isEmpty(); e++){
                 popped.add(stack.pop());
             }
             if(((int)(Math.random()*3)) == 1){
