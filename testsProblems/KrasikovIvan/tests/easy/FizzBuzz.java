@@ -4,7 +4,7 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-
+// Легкая задача
 public class FizzBuzz {
     static public List<String> solution(int n) {
         List<String> ans = new ArrayList<>();

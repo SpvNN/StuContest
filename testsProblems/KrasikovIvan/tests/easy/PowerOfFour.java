@@ -3,6 +3,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 
+// Легкая задача
 public class PowerOfFour {
     static public boolean solution(int n){
         while(n >= 4){
