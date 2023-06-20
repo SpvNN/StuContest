@@ -1,0 +1,16 @@
+.container.two-column {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-column-gap: 20px;
+}
+.form {
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 4px 8px #33333325;
+    display: flex;
+    align-items: stretch;
+    flex-direction: column;
+}
+.from:last-child {
+    margin: 0 !important;
+}
