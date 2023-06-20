@@ -116,4 +116,32 @@ public class RestService {
 
         return ResponseEntity.ok().build();
     }
+
+    @CrossOrigin
+    @PutMapping("/user/task")
+    public ResponseEntity updateUserTask(
+            @RequestBody TaskRequest body
+    ) {
+        Optional<UserEntity> user = userRepository.findUserByEmail(body.email);
+        if (user.isEmpty()) {
+            return ResponseEntity.notFound().build();
+        }
+
+        TaskEntity task_o = null;
+        for (TaskEntity task :
+                user.get().getTasks()) {
+            if (task.getName() == body.task.name) {
+                task_o = task;
+                break;
+            }
+        }
+
+        if (task_o == null) {
+            return ResponseEntity.notFound().build();
+        }
+
+        this.taskRepository.save(task_o);
+
+        return ResponseEntity.ok().build();
+    }
 }
